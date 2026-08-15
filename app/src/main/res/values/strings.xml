@@ -1,0 +1,103 @@
+<resources>
+    <!-- App -->
+    <string name="app_name">FSPEDX</string>
+    <string name="tagline">Full-Speed Extreme</string>
+    
+    <!-- Onboarding -->
+    <string name="onboarding_title_1">Show Live FPS &amp; Temp</string>
+    <string name="onboarding_desc_1">Allow FSPEDX to draw over other apps so you can see your frame rate and battery temperature while playing PES.</string>
+    <string name="onboarding_title_2">Record Taps for Heatmaps</string>
+    <string name="onboarding_desc_2">Enable Accessibility so FSPEDX can capture where you tap on the screen. This data generates heatmaps and suggests better button positions.</string>
+    <string name="onboarding_title_3">Zero-Lag Network Tunnel</string>
+    <string name="onboarding_desc_3">Setup the VPN tunnel to route only PES traffic through our optimized path. This reduces ping and prioritizes your game packets.</string>
+    <string name="onboarding_title_4">Block Calls &amp; Notifications</string>
+    <string name="onboarding_desc_4">Allow DND mode so you never get interrupted by WhatsApp calls or notifications during a crucial match moment.</string>
+    <string name="onboarding_next">Next</string>
+    <string name="onboarding_finish">Launch FSPEDX</string>
+    
+    <!-- Home -->
+    <string name="home_status_ready">âš¡ Ready</string>
+    <string name="home_ping">Ping</string>
+    <string name="home_ram">RAM</string>
+    <string name="home_boost">BOOST</string>
+    <string name="home_radar">RADAR</string>
+    <string name="home_record">RECORD</string>
+    <string name="home_boost_loading">Boosting...</string>
+    <string name="home_radar_loading">Testing...</string>
+    <string name="home_record_stop">STOP</string>
+    
+    <!-- Features -->
+    <string name="features_performance">PERFORMANCE ENGINE</string>
+    <string name="features_network">NETWORK TUNNELING</string>
+    <string name="features_overlays">IN-GAME OVERLAYS</string>
+    <string name="features_system">SYSTEM &amp; PROTECTION</string>
+    
+    <string name="feature_fps_title">FPS / Temp Overlay</string>
+    <string name="feature_fps_desc">Show live FPS and battery temperature</string>
+    <string name="feature_refresh_title">Refresh Rate Switch</string>
+    <string name="feature_refresh_desc">Drop 120Hz â†’ 60Hz for stable gaming</string>
+    <string name="feature_thermal_title">Thermal Sentinel</string>
+    <string name="feature_thermal_desc">Auto-throttle if temp &gt; 45Â°C</string>
+    <string name="feature_profile_title">Profile Selector</string>
+    
+    <string name="feature_wifi_title">Wi-Fi Low-Latency Lock</string>
+    <string name="feature_wifi_desc">Prioritize game packets over battery</string>
+    <string name="feature_dns_title">Smart DNS</string>
+    <string name="feature_dns_desc">Use Cloudflare (1.1.1.1) for faster lookups</string>
+    <string name="feature_dual_title">Dual-Channel Rescue</string>
+    <string name="feature_dual_desc">Use WiFi + Mobile Data simultaneously</string>
+    <string name="feature_vpn_title">Local VPN Tunnel</string>
+    <string name="feature_vpn_desc">Route only PES traffic through our tunnel</string>
+    <string name="feature_radar_title">Pre-Match Radar</string>
+    <string name="feature_radar_desc">Run a quick ping test to Konami\'s servers</string>
+    
+    <string name="feature_pill_title">Floating Quick-Pill</string>
+    <string name="feature_pill_desc">Access controls without leaving your game</string>
+    <string name="feature_panel_title">Side Pull-Out Table</string>
+    <string name="feature_panel_desc">Swipe from left for live stats dashboard</string>
+    <string name="feature_crosshair_title">Aiming Crosshair</string>
+    <string name="feature_crosshair_desc">Drag an overlay guide for precise passes/shots</string>
+    
+    <string name="feature_autolaunch_title">Auto-Launch Trigger</string>
+    <string name="feature_autolaunch_desc">Auto-enable boosters when PES starts</string>
+    <string name="feature_dnd_title">Smart DND</string>
+    <string name="feature_dnd_desc">Mute calls and notifications during matches</string>
+    <string name="feature_whitelist_title">App Whitelist</string>
+    <string name="feature_whitelist_desc">Protect apps from being killed by RAM booster</string>
+    <string name="feature_backup_title">Backup &amp; Restore</string>
+    <string name="feature_backup_desc">Export/Import settings and heatmap data</string>
+    
+    <!-- Whitelist Dialog -->
+    <string name="whitelist_title">Protected Apps</string>
+    <string name="whitelist_add">Add</string>
+    <string name="whitelist_close">Close</string>
+    <string name="whitelist_empty">No apps protected yet.\nTap Add to select apps.</string>
+    
+    <!-- Backup Dialog -->
+    <string name="backup_title">Backup &amp; Restore</string>
+    <string name="backup_export">Export</string>
+    <string name="backup_import">Import</string>
+    <string name="backup_cancel">Cancel</string>
+    <string name="backup_success">Settings exported to Downloads</string>
+    <string name="backup_fail">Export failed</string>
+    
+    <!-- Analytics -->
+    <string name="analytics_heatmap">Heatmap</string>
+    <string name="analytics_mistaps">Mis-taps</string>
+    <string name="analytics_timeline">Timeline</string>
+    <string name="analytics_suggest">Suggest New Positions</string>
+    <string name="analytics_vibration">Vibration Training</string>
+    <string name="analytics_mistap_count">Mis-taps detected: %d</string>
+    
+    <!-- Gallery -->
+    <string name="gallery_empty">No recordings yet.\nTap Record during a match to save a replay.</string>
+    
+    <!-- Bottom Nav -->
+    <string name="nav_home">Home</string>
+    <string name="nav_features">Features</string>
+    <string name="nav_analytics">Analytics</string>
+    <string name="nav_gallery">Gallery</string>
+    
+    <!-- Accessibility Description -->
+    <string name="accessibility_description">FSPEDX uses accessibility to record your tap positions on the screen. This data helps generate heatmaps and suggest optimal button placements for PES/eFootball. No personal data is collected or stored externally.</string>
+</resources>

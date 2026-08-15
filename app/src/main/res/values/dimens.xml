@@ -1,0 +1,39 @@
+<resources>
+    <!-- Default margins & paddings -->
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_large">24dp</dimen>
+    <dimen name="margin_xl">32dp</dimen>
+    
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">16dp</dimen>
+    <dimen name="padding_large">24dp</dimen>
+    
+    <!-- Text sizes -->
+    <dimen name="text_small">12sp</dimen>
+    <dimen name="text_medium">14sp</dimen>
+    <dimen name="text_default">16sp</dimen>
+    <dimen name="text_large">20sp</dimen>
+    <dimen name="text_xl">24sp</dimen>
+    <dimen name="text_xxl">32sp</dimen>
+    
+    <!-- Card elevations -->
+    <dimen name="card_elevation_low">4dp</dimen>
+    <dimen name="card_elevation_medium">8dp</dimen>
+    <dimen name="card_corner_radius">12dp</dimen>
+    <dimen name="button_corner_radius">8dp</dimen>
+    
+    <!-- Overlay sizes -->
+    <dimen name="fps_overlay_width">140dp</dimen>
+    <dimen name="fps_overlay_height">32dp</dimen>
+    <dimen name="floating_pill_width">56dp</dimen>
+    <dimen name="floating_pill_height">56dp</dimen>
+    <dimen name="side_panel_width_fraction">240dp</dimen>
+    
+    <!-- Feature item heights -->
+    <dimen name="feature_item_height">72dp</dimen>
+    <dimen name="feature_section_height">48dp</dimen>
+    
+    <!-- Whitelist dialog -->
+    <dimen name="dialog_width">320dp</dimen>
+</resources>

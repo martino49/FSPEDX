@@ -1,0 +1,29 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background -->
+    <item android:drawable="@color/primary_black" />
+
+    <!-- Logo (transparent PNG) -->
+    <item
+        android:gravity="center"
+        android:top="120dp">
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/ic_logo" />
+    </item>
+
+    <!-- Loading Bar -->
+    <item
+        android:gravity="bottom"
+        android:bottom="80dp">
+        <shape
+            android:shape="rectangle"
+            android:width="200dp"
+            android:height="4dp">
+            <corners android:radius="2dp" />
+            <gradient
+                android:startColor="@color/primary_cyan"
+                android:endColor="@color/primary_purple"
+                android:angle="0" />
+        </shape>
+    </item>
+</layer-list>
