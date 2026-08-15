@@ -4,93 +4,108 @@
 
 # FSPEDX • SpeedX
 
-**Full-Speed Extreme** — Game performance booster for PES / eFootball on the Redmi 14C.
+**Full-Speed Extreme** — PES / eFootball game performance booster for budget Android phones.
+
+**Target device:** Redmi 14C · Android 14 · MediaTek Helio G81-Ultra · 4GB RAM
 
 </div>
 
-FSPEDX (SpeedX) is an Android game booster built for budget phones like the Redmi 14C
-(4 GB RAM, MediaTek Helio G81-Ultra). It combines networking, performance, touch
-analytics and in-game overlays to make the most of limited hardware.
+---
 
-## Features (30 locked + 1 later)
+## What It Does
 
-| # | Category | Feature | Confidence |
-|---|----------|---------|------------|
-| 1 | Setup | Smart Onboarding Wizard | – |
-| 2 | RAM | 80% Priority Lock + Force-Stop Background Apps | Medium |
-| 3 | RAM | App Whitelist (Protect WhatsApp/Music from being killed) | Medium |
-| 4 | RAM | Memory Extension Enabler (Virtual RAM guide) | Medium |
-| 5 | RAM | Safe Cache Monitor (Junk cleaner excluding PES) | Medium |
-| 6 | Perf | FPS + Temperature Overlay | High |
-| 7 | Perf | Refresh Rate Smart Switcher (120Hz → 60Hz) | High |
-| 8 | Perf | Thermal Sentinel (Auto-throttle protection) | High |
-| 9 | Perf | Eco vs Turbo Profiles | – |
-| 10 | Perf | Auto-Launch Trigger (Detects PES start) | High |
-| 11 | Network | Wi-Fi Low-Latency Lock | High |
-| 12 | Network | Local VPN (UDP Priority + Bandwidth Hijack) | High |
-| 13 | Network | Smart DNS (Cloudflare/Google) | Medium |
-| 14 | Network | Dual-Channel Rescue (WiFi + Mobile Data) | Medium |
-| 15 | Network | Pre-Match Network Radar (Ping test) | High |
-| 16 | UI/UX | Smart DND (Mute calls/notifications) | Medium |
-| 17 | UI/UX | Floating Quick-Pill (In-game controls) | High |
-| 18 | UI/UX | Side Pull-Out Table (Live Stats Dashboard) | High |
-| 19 | UI/UX | Local Backup & Restore | High |
-| 20 | Intel | Touch Heatmap Recorder | High |
-| 21 | Intel | Gesture Classification (Tap/Swipe/Hold) | High |
-| 22 | Intel | Mis-Tap Detection + K-Means Clustering | Medium |
-| 23 | Intel | Vibration Muscle Training | Medium |
-| 24 | Intel | Aiming Crosshair Overlay | Low |
-| 25 | Intel | Session Replay (Screen recording + overlay) | High |
-| 26 | Intel | Record Toggle on Floating Pill | High |
-| 27 | Analytics | Lag Spike Timeline (Post-match report) | High |
-| 28 | Perf | GPU Rendering Tuning (Force GPU + Disable HW Overlays) | High |
-| 29 | UX | Gesture / Edge Blocking (Sticky Immersive Mode) | High |
-| 30 | Perf | Background Data Starvation (Restrict sync) | High |
-| 31 | UX | Message Floating Window (Quick Reply) — Phase 2 | – |
+FSPEDX makes PES run smoother on budget phones by combining:
 
-Confidence = how likely the feature improves real gameplay performance on the
-Redmi 14C. High = direct hardware/network manipulation, Medium = temporary or
-conditional, Low = skill / UX aid.
+- **Network** — Wi-Fi low-latency lock, local VPN with UDP priority, smart DNS
+- **Performance** — 80% RAM priority lock, thermal sentinel, refresh-rate management, GPU rendering tuning, keep-screen-on
+- **In-game overlays** — live FPS/temp counter, floating quick-pill, side dashboard, aiming crosshair, edge guard, interception banner
+- **Analytics** — touch heatmap, mis-tap detection + K-Means button suggestions, lag-spike timeline, session recording & replay
+- **Protection** — smart DND (never mutes calls), app whitelist, backup & restore
 
-## How It Helps
+## Feature Status Summary
 
-- **Ping:** 10–30 ms lower and more stable (Wi-Fi lock + VPN UDP priority + DNS).
-- **FPS stability:** fewer drops (30 → 15 fps moments) via thermal management and
-  60 Hz refresh switching.
-- **Heat:** reduced throttling means longer consistent sessions.
+| # | Feature | Status |
+|---|---------|--------|
+| 1 | Smart Onboarding Wizard | ✅ Working |
+| 2 | 80% RAM Priority Lock | ✅ Working |
+| 3 | App Whitelist | ✅ Working (app picker to be polished) |
+| 4 | Memory Extension Enabler | ⚠️ Opens system settings |
+| 5 | Safe Cache Monitor | ✅ Working |
+| 6 | FPS + Temp Overlay | ✅ Working (real Choreographer FPS) |
+| 7 | Refresh Rate Switcher | ⚠️ Device-dependent |
+| 8 | Thermal Sentinel | ✅ Working (auto-60Hz at critical temp) |
+| 9 | Eco vs Turbo Profiles | ✅ Working |
+| 10 | Auto-Launch Trigger | ✅ Working |
+| 11 | Wi-Fi Low-Latency Lock | ✅ Working |
+| 12 | Local VPN (UDP priority) | ✅ Working |
+| 13 | Smart DNS | ✅ Working |
+| 14 | Dual-Channel Rescue | ⚠️ Opens system settings |
+| 15 | Pre-Match Radar (ping) | ✅ Working |
+| 16 | Smart DND | ✅ Working (never cancels calls) |
+| 17 | Floating Quick-Pill | ✅ Working |
+| 18 | Side Pull-Out Table | ✅ Working (real data) |
+| 19 | Local Backup & Restore | ✅ Working |
+| 20 | Touch Heatmap Recorder | ✅ Working |
+| 21 | Gesture Classification | ✅ Working |
+| 22 | Mis-Tap + K-Means | ✅ Working |
+| 23 | Vibration Muscle Training | ✅ Working |
+| 24 | Aiming Crosshair | ✅ Working |
+| 25 | Session Replay | ✅ Working (MediaProjection flow) |
+| 26 | Record Toggle (Pill) | ✅ Working |
+| 27 | Lag Spike Timeline | ✅ Working |
+| 28 | GPU Rendering Tuning | ✅ Working (Settings.Global) |
+| 29 | Gesture/Edge Blocking | ✅ Working |
+| 30 | Background Data Starvation | ✅ Working |
+| — | Keep Screen On | ✅ Working |
+| — | Floating Notifications (banner) | ✅ Working |
+| — | Message Floating Window | 📅 Phase 2 |
 
-It will **not** turn a Helio G81 into a flagship — no software can add GPU power.
+> Legend: ✅ fully working · ⚠️ works but device/system-dependent · 📅 planned
+
+## Screens (18 in wireframe)
+
+3 activities (Splash, Onboarding, Main) · 4 main fragments (Home, Features, Analytics, Gallery) ·
+3 analytics sub-tabs · 2 dialogs · 6 persistent overlays.
+
+## Tech Stack
+
+Kotlin · AndroidX · Material Components · Room · Coroutines · MPAndroidChart ·
+OkHttp · Gson · ViewBinding · minSdk 26 · targetSdk 34 · compileSdk 34
+
+## Build
+
+Requires: JDK 17, Gradle 8.5, Android SDK Platform 34.
+
+```
+gradle assembleDebug
+# APK: app/build/outputs/apk/debug/app-debug.apk
+```
+
+## Documentation
+
+- [`docs/README.md`](docs/README.md) — documentation index
+- [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) — code architecture & structure
+- [`docs/APP-FEATURES.md`](docs/APP-FEATURES.md) — full feature reference
+- [`docs/APP-SCREENS.md`](docs/APP-SCREENS.md) — screen inventory
+- [`docs/DEVELOPMENT.md`](docs/DEVELOPMENT.md) — build, install, test guide
+- [`docs/product-acceptance-questions.md`](docs/product-acceptance-questions.md) — product acceptance checklist
 
 ## Project Layout
 
 ```
 app/src/main/java/com/fspedx/booster/
-├── FSPEDXApplication.kt        App class + Auto-Launch trigger
+├── FSPEDXApplication.kt        App class + auto-launch + keep-screen-on
 ├── ui/                         Activities, fragments, adapters, custom views
 ├── services/                   VPN, Overlay, Accessibility, DND, Recorder
 ├── viewmodels/                 MVVM state holders
 ├── data/                       Room database, models, repository
-├── utils/                      Permissions, network, performance, ML, backup
+├── utils/                      Permissions, network, performance, ML, backup, constants
 └── di/                         Manual DI (AppContainer)
-
-docs/features/                  One markdown page per feature (1–31)
 ```
-
-## Tech Stack
-
-Kotlin • AndroidX • Material Components • Room • Coroutines • MPAndroidChart •
-OkHttp • PermissionX • Gson • ViewBinding
-
-## Building
-
-1. Open the project in Android Studio (uses the bundled JDK).
-2. Let it sync Gradle (8.7) — Android Studio will download the distribution
-   the first time and regenerate the wrapper.
-3. SDK Platform 34 is already installed on this machine.
-4. Build → Run on your Redmi 14C.
 
 ## Notes
 
 - Package: `com.fspedx.booster`
-- minSdk 26 (Android 8.0), targetSdk 34
-- Logo: `fspedx-logo-transparent.png` (background removed from the source PNG)
+- **Scope for v1.0.1: PES / eFootball only** (architecture kept clean for future games)
+- No emojis as UI design — vector icons only
+- All UI data is real (from system/DB), never hardcoded
